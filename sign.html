@@ -23,14 +23,16 @@
                 <h3>회원 검색 </h3>
                 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="이름 검색해서 찾기" ></input>
                 <h3>회원 목록</h3>
+                <p>(회원 정보 수정 => 해당하는 셀 클릭 ! )</p>
                 <table border="1" id="list">
                         <tr>
                         <th>NAME</th><th>ID</th><th>PASSWORD</th>
                         </tr>     
                 </table>
+                <input type="button" value="회원삭제" onclick="deleteRow(-1)" />
         </form>
         <br>
-        ▼ 이동할 Page를 밑에서 선택하십시오!! ▼<br>
+        ▼ 이동할 Page를 밑에서 선택하십시오! ▼<br>
         <strong> <a href="main.html">메인 페이지</a> / <a href="login.html">로그인</a> </strong>
      <script src="sign_JS.js">
          
